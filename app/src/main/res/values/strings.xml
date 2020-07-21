@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Social</string>
+    <string name="home">Home</string>
+    <string name="discover">Discover</string>
+    <string name="Add">Add</string>
+    <string name="live">Go live</string>
+    <string name="myaccount">Account</string>
+    <string name="exitmsg">Do you want to exit from app</string>
+
+    <string name="select_your_language">Select Your Language</string>
+    <string name="let_s_go">Let\'s Go</string>
+    <string name="let_me_know_n_your_gender">Let me know your gender</string>
+    <string name="male">Male</string>
+    <string name="fe_male">Fe-Male</string>
+    <string name="other">Other</string>
+    <string name="select_your_n_interest">Select your interest</string>
+    <string name="next">Next</string>
+    <string name="follow">Follow</string>
+    <string name="login_in_your_account">Login in your account</string>
+    <string name="entermobioe">Enter Mobile to continue</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="continuewith">Or Continue with</string>
+    <string name="put_otp_and_verify">Put OTP and Verfiy</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="resend">Resend</string>
+    <string name="record">Record</string>
+    <string name="invald">Invalid Mobile No !</string>
+    <string name="facebook_app_id">259691838807476</string>
+    <string name="fb_login_protocol_scheme">fb259691838807476</string>
+    <string name="total_likes">Total likes</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="say_something_about">Say something about</string>
+    <string name="about">What do want to say about this post..</string>
+    <string name="publish">Publish</string>
+    <string name="posts">Post\'s</string>
+    <string name="tags">Tags</string>
+    <string name="foollowings">Following</string>
+
+    //filter string
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="your_post_has_been_publish">Your post has been publish</string>
+    <string name="back_to_home">Back to home</string>
+    <string name="invaliddesc">Say something about post !</string>
+
+
+    <string name="filter_none">Original image</string>
+    <string name="filter_invert">film</string>
+    <string name="filter_monochrome">monochrome</string>
+    <string name="filter_sepia">Nostalgia</string>
+    <string name="filter_grayscale">Grayscale</string>
+    <string name="filter_sphererefraction">spherical</string>
+    <string name="filter_cgacolorspace">dye</string>
+    <string name="filter_tonecurve">curve</string>
+    <string name="filter_vignette">Vignette</string>
+    <string name="filter_blackandwhite">Black and white</string>
+    <string name="filter_overlay">overlapping</string>
+    <string name="filter_barrelblur">blurry</string>
+    <string name="filter_posterize">Noise</string>
+    <string name="filter_contrast">Contrast</string>
+    <string name="filter_gamma">Gamma Line</string>
+    <string name="filter_crossprocess">cross</string>
+    <string name="filter_hue">Chroma</string>
+    <string name="filter_temperature">Color temperature</string>
+    <string name="filter_sketch">sketch</string>
+    <string name="in_process">processing..</string>
+    <string name="save">Save</string>
+    <string name="dislay_name">Display Name</string>
+    <string name="watermark">watermark</string>
+    <string name="downloading">Downloading.....</string>
+    <string name="selffllow">You can\'t follow yourself</string>
+    <string name="fllowto">\"Your are following \"</string>
+    <string name="email">Email</string>
+    <string name="aboutuser">About me</string>
+    <string name="emptyname">Name Can\'t blank</string>
+    <string name="music">Music</string>
+    <string name="you_have_already_download_video">You have allreadu downloaded</string>
+    <string name="download_later">Download later</string>
+    <string name="nointerenet">No Internet Connection found !</string>
+
+</resources>

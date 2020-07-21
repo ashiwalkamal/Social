@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="start">#F91212</color>
+    <color name="center">#DE026D</color>
+    <color name="end">#F74D2E</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="menutop">#EC0047</color>
+    <color name="gray">#d3d3d3</color>
+
+    <color name="colorPrimaryPix">#000000</color>
+    <color name="colorPrimaryLightPix">#000000</color>
+    <!--          白色透明度  40%         -->
+    <color name="colorWhite">#fff</color>
+    <!--          黑色透明度    -->
+
+
+    <!--红色 -->
+    <!--灰色 -->
+
+
+    <color name="cccccc" >#cccccc</color>
+    <color name="ff7f000000" >#7f000000</color>
+    <color name="f4d4d4d" >#4d4d4d</color>
+    <color name="ff666666" >#666666</color>
+    <color name="alpha_white_70" >#4Dffffff</color>
+
+</resources>

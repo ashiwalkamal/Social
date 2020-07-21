@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activity.Compressing">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/h5"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:id="@+id/llaudio"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|top"
+                android:layout_margin="10dp"
+                android:layout_weight=".70"
+                android:elevation="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/circular_button"
+                    android:backgroundTint="@color/white"
+                    android:padding="3dp"
+                    app:srcCompat="@drawable/ic_baseline_music_note_24" />
+
+                <TextView
+                    android:id="@+id/songselected"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:singleLine="true"
+                    android:text="@string/music"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/next"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight=".30"
+                android:background="@drawable/btnback"
+                android:backgroundTint="@color/end"
+                android:elevation="5dp"
+                android:fontFamily="@font/opensans_semibold"
+                android:gravity="center"
+                android:text="@string/next"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black">
+
+            <VideoView
+                android:id="@+id/video"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/play"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:elevation="5dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ic_play" />
+
+            <ImageView
+                android:id="@+id/thumb"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </FrameLayout>
+    </FrameLayout>
+</layout>
